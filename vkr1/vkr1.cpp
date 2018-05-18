@@ -140,7 +140,7 @@ Tree tree_mutate(Tree treein, int *symbols[])
 			tree.nodetyp[i] = tree_genrndsymb(tree.nodetyp(i) != 1, *nn);
 			tree.node[i] = tree_genrndsymb(tree.nodetyp(i) != 1, *nn);
 		}
-}*/
+}
 
 void main()
 {
