@@ -120,7 +120,7 @@ int recombinate_Tree(Tree treein1, Tree treein2, int mode, int *symbols[])
 	}
 }
 
-Tree tree_mutate(Tree treein, int *symbols[])
+/*Tree tree_mutate(Tree treein, int *symbols[])
 {
 	Tree tree;
 	srand(time(NULL));
@@ -140,10 +140,10 @@ Tree tree_mutate(Tree treein, int *symbols[])
 			tree.nodetyp[i] = tree_genrndsymb(tree.nodetyp(i) != 1, *nn);
 			tree.node[i] = tree_genrndsymb(tree.nodetyp(i) != 1, *nn);
 		}
-}
+}*/
 
 void main()
 {
-	return;
+
 }
 
