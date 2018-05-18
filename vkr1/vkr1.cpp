@@ -120,7 +120,7 @@ int recombinate_Tree(Tree treein1, Tree treein2, int mode, int *symbols[])
 	}
 }
 
-/*Tree tree_mutate(Tree treein, int *symbols[])
+Tree tree_mutate(Tree treein, int *symbols[])
 {
 	Tree tree;
 	srand(time(NULL));
